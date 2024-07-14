@@ -23,3 +23,7 @@ You can also edit this file however you like.
 https://www.gradio.app/guides/custom-components-in-five-minutes
 
 https://echarts.apache.org/handbook/zh/basics/import/#
+
+# build(打包)
+
+`NODE_ENV=production gradio cc build --no-generate-docs`

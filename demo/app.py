@@ -3,11 +3,6 @@ import gradio as gr
 from gradio_mycomponent import MyComponent
 import json
 
-example = MyComponent().example_value()
-
-with gr.Blocks() as demo:
-    myComponent = MyComponent()
-
 def transform_data(data, ratio):
     'transform data with ratio'
     '转换原始数据'
