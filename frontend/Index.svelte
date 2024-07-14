@@ -66,9 +66,9 @@
 				console.log(JSON.parse(value).title);
 				myChart.dispose()
 				myChart = echarts.init(chartMain);
-				setTimeout(() => {
-					myChart.setOption(JSON.parse(value));
-				},500);
+				myChart.setOption(JSON.parse(value));
+				// setTimeout(() => {
+				// },500);
 			} catch (e) {
 				console.error(e);
 			}
