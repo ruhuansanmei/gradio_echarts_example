@@ -23,7 +23,11 @@ demo = gr.Interface(
     outputs= MyComponent(),  # static version of your component
     # examples=[[example]],  # uncomment this line to view the "example version" of your component
     submit_btn= "绘图(draw)",
-    clear_btn= "清除数据(clear)"
+    clear_btn= "清除数据(clear)",
+    # description = "gradio-echarts-example",
+    title= "gradio-echarts-example",
+    allow_flagging = "never",
+    article= 'source code https://github.com/ruhuansanmei/gradio_echarts_example',
 )
 
 
