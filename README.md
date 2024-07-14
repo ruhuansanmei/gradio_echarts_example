@@ -27,3 +27,7 @@ https://echarts.apache.org/handbook/zh/basics/import/#
 # build(打包)
 
 `NODE_ENV=production gradio cc build --no-generate-docs`
+
+# 打包镜像
+
+`docker build . -t gradio_echarts`
