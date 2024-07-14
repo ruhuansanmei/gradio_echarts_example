@@ -102,7 +102,7 @@
 	allow_overflow={false}
 	padding={true}
 >
-	<div bind:this={chartMain} style="height: 600px;width: 300px"></div>
+	<div bind:this={chartMain} style="height: 600px;width: 100%"></div>
 
 	<!-- {#if loading_status}
 		<StatusTracker
